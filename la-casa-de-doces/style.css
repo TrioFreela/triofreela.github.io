@@ -1,0 +1,26 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+
+/*Fonte dos títulos: Coluna*/
+@font-face {
+    font-family: 'Coluna';
+    src: url(fontes/Coluna.otf) format('opentype');
+}
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
